@@ -12,7 +12,7 @@ const newsLetter = () => {
 				</div>
 				<div className='flex flex-col sm:flex-row justify-centers items-center mt-5'>
 					<input
-						className='p-3 rounded-md text-black '
+						className='p-3 w-full rounded-md text-black '
 						type='email'
 						placeholder='Enter Email'
 					/>
