@@ -10,7 +10,9 @@ const analytics = () => {
 					alt='image for div'
 				/>
 				<div className='text-center  flex flex-col justify-center'>
-					<p className='text-[#00df9a]'>This is Data Analytics</p>
+					<p className='text-[#00df9a] text-2xl'>
+						This is Data Analytics
+					</p>
 					<h1 className='md:text-4xl sm:text-3xl text-2xl font-bold py-2'>
 						Manage data analytics centrally
 					</h1>
@@ -21,7 +23,7 @@ const analytics = () => {
 						soluta, officiis quos! Animi fugiat repudiandae
 						voluptates esse!
 					</p>
-					<button className='bg-green-600 rounded w-32 h-12 mx-auto mt-5'>
+					<button className='bg-green-600 text-white rounded w-32 h-12 mx-auto mt-5 mb-5'>
 						Get started
 					</button>
 				</div>
