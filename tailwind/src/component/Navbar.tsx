@@ -9,9 +9,9 @@ const Navbar = () => {
 	};
 
 	return (
-		<div className='flex justify-between items-center h-28 max-x-[1240px] mx-auto px-8 text-white'>
+		<div className='flex justify-between items-center h-28 max-x-[1440px] mx-auto px-8 text-white'>
 			<h1 className='w-full text-3xl font-bold text-[#00df9a]'>React.</h1>
-			<ul className='hidden md:flex'>
+			<ul className='md:flex hidden cursor-pointer'>
 				<li className='p-4'>Home</li>
 				<li className='p-4'>Company</li>
 				<li className='p-4'>Resources</li>
@@ -19,7 +19,7 @@ const Navbar = () => {
 				<li className='p-4'>Contact</li>
 			</ul>
 			<div onClick={handleNav} className='block md:hidden'>
-				{!navs ? (
+				{navs ? (
 					<AiOutlineClose size={30} />
 				) : (
 					<AiOutlineMenu size={30} />
@@ -27,8 +27,8 @@ const Navbar = () => {
 			</div>
 			<div
 				className={
-					!navs
-						? "fixed left-0 top-0 w-[60%] m-4 border-r border-r-gray-900 h-full bg-gray-800 ease-in-out duration-500"
+					navs
+						? "fixed left-0 top-0 w-[50%]  border-r border-r-gray-900 h-full bg-gray-800 ease-in-out duration-500"
 						: "fixed left-[-100%]"
 				}
 			>

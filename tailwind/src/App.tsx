@@ -1,10 +1,12 @@
 import React from "react";
 import Navbar from "./component/Navbar";
+import Hero from "./component/hero";
 
 function App() {
 	return (
-		<div>
+		<div className='w-full'>
 			<Navbar />
+			<Hero />
 		</div>
 	);
 }
