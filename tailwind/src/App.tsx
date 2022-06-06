@@ -4,7 +4,9 @@ import Hero from "./component/hero";
 import Analytics from "./component/analytics";
 import NewsLetter from "./component/newsLetter";
 import Cards from "./component/cards";
+import Scrollbar from "./component/scrollbar";
 import Footer from "./component/footer";
+
 function App() {
 	return (
 		<div>
@@ -13,6 +15,7 @@ function App() {
 			<Analytics />
 			<NewsLetter />
 			<Cards />
+			<Scrollbar />
 			<Footer />
 		</div>
 	);

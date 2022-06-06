@@ -3,7 +3,7 @@ import React from "react";
 const hero = () => {
 	return (
 		<div className='text-white '>
-			<div className='mt-[-96px]  w-full h-screen text-center flex flex-col justify-center uppercase '>
+			<div className='mt-[-96px]  w-full h-screen text-center flex flex-col justify-center uppercase'>
 				<p className='text-[#00df9a] font-bold p-2'>
 					Growing with data analytics
 				</p>
@@ -12,7 +12,7 @@ const hero = () => {
 				</h1>
 				<div>
 					<p className='md:text-5xl sm:text-4xl text-xl font-bold'>
-						fast, flexible financing for
+						fast, flexible financing
 					</p>
 					<button className='bg-green-600 rounded w-32 h-12 mt-5'>
 						Get started
