@@ -12,11 +12,11 @@ const Navbar = () => {
 		<div className='flex justify-between items-center h-28 max-x-[1440px] mx-auto px-8 text-white'>
 			<h1 className='w-full text-3xl font-bold text-[#00df9a]'>React.</h1>
 			<ul className='md:flex hidden cursor-pointer'>
-				<li className='p-4'>Home</li>
-				<li className='p-4'>Company</li>
-				<li className='p-4'>Resources</li>
-				<li className='p-4'>About</li>
-				<li className='p-4'>Contact</li>
+				<li className='p-4 hover:text-red-500'>Home</li>
+				<li className='p-4 hover:text-red-500'>Company</li>
+				<li className='p-4 hover:text-red-500'>Resources</li>
+				<li className='p-4 hover:text-red-500'>About</li>
+				<li className='p-4 hover:text-red-500'>Contact</li>
 			</ul>
 			<div onClick={handleNav} className='block md:hidden'>
 				{navs ? (

@@ -26,7 +26,7 @@ const footer = () => {
 				</div>
 			</div>
 			<div className='lg:col-span-2 flex justify-between mt-6 sm:text-2xl text-sm'>
-				<div className='font:md text-gray-500'>
+				<div className='font:md text-gray-300'>
 					<h6 className='underline font-bold'>Solutions</h6>
 					<ul>
 						<li className='py-2 text-sm'>Analytics</li>
@@ -35,7 +35,7 @@ const footer = () => {
 						<li className='py-2 text-sm'>Insights</li>
 					</ul>
 				</div>
-				<div className='font-md text-gray-500'>
+				<div className='font-md text-gray-300'>
 					<h6 className='underline font-bold'>Support</h6>
 					<ul>
 						<li className='py-2 text-sm'>Pricing</li>
@@ -44,7 +44,7 @@ const footer = () => {
 						<li className='py-2 text-sm'>API status</li>
 					</ul>
 				</div>
-				<div className='font-md text-gray-500'>
+				<div className='font-md text-gray-300'>
 					<h6 className='underline font-bold'>Conpany</h6>
 					<ul>
 						<li className='py-2 text-sm'>About</li>
@@ -54,7 +54,7 @@ const footer = () => {
 						<li className='py-2 text-sm'>Careers</li>
 					</ul>
 				</div>
-				<div className='font-md text-gray-500'>
+				<div className='font-md text-gray-300'>
 					<h6 className='underline font-bold'>Legal</h6>
 					<ul>
 						<li className='py-2 text-sm'>Claim</li>
