@@ -7,11 +7,11 @@ const hero = () => {
 				<p className='text-[#00df9a] font-bold p-2'>
 					Growing with data analytics
 				</p>
-				<h1 className='md:text-7xl sm:6xl text-4xl font-bold md:py-6 md:px-5'>
+				<h1 className='md:text-7xl sm:6xl text-4xl font-bold md:py-6 md:px-5 coloredTexth1'>
 					Grow With data
 				</h1>
 				<div>
-					<p className='md:text-5xl sm:text-4xl text-xl font-bold'>
+					<p className='md:text-3xl sm:text-4xl text-xl font-bold coloredTexth1'>
 						fast, flexible financing
 					</p>
 					<button className='bg-green-600 rounded w-32 h-12 mt-5'>

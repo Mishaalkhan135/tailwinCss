@@ -1,10 +1,9 @@
 import React from "react";
-import Scrollbar from "./components/scrollbar";
 
 function App() {
 	return (
-		<div>
-			<Scrollbar />
+		<div className='flex justify-center items-center min-h-[100vh] '>
+			<h1 className='coloredTexth1'>Mishaal khan</h1>
 		</div>
 	);
 }
