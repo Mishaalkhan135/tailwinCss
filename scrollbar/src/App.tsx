@@ -5,15 +5,17 @@ import Cards from "./components/cards";
 import FileUpload from "./components/fileUpload";
 import Signup from "./components/signUp";
 import Video from "./components/video";
+import SideBar from "./components/sideBar";
 function App() {
 	return (
 		<div>
+			<SideBar />
 			{/* <Header />
 			<Body />
 			<Cards />
-			<FileUpload /> 
-			<Signup />*/}
-			<Video />
+			<FileUpload />
+			<Signup />
+			<Video /> */}
 		</div>
 	);
 }
