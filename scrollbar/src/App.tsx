@@ -1,9 +1,17 @@
 import React from "react";
-
+import Header from "./components/header";
+import Body from "./components/body";
+import Cards from "./components/cards";
+import FileUpload from "./components/fileUpload";
+import Signup from "./components/signUp";
 function App() {
 	return (
-		<div className='flex justify-center items-center min-h-[100vh] bg-gradient-to-br from-white to-black underline hover:from-pink-500 hover:to-indigo-900'>
-			<h1 className='coloredTexth1'>Mishaal khan</h1>
+		<div>
+			{/* <Header />
+			<Body />
+			<Cards />
+			<FileUpload /> */}
+			<Signup />
 		</div>
 	);
 }
