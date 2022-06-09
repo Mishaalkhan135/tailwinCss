@@ -21,11 +21,11 @@ const Slider = () => {
 	};
 
 	return (
-		<div className=' h-[540px] flex justify-between items-center'>
+		<div className=' h-[540px] flex justify-between items-center px-6'>
 			{/* left arrow div */}
 			<div className='leftarrow'>
 				<ArrowLeftOutlined
-					className='rounded-full bg-gray-500 flex justify-center items-center shadow-sm hover:cursor-pointer'
+					className='rounded-full bg-gray-500 flex justify-center items-center shadow-sm hover:cursor-pointer mr-3'
 					style={{ fontSize: "50px" }}
 					onClick={prevSlide}
 				/>
@@ -62,7 +62,7 @@ const Slider = () => {
 			{/* right arrow div */}
 			<div className='rightarrow'>
 				<ArrowRightOutlined
-					className='rounded-full bg-gray-500 flex justify-center items-center shadow-sm hover:cursor-pointer'
+					className='rounded-full bg-gray-500 flex justify-center items-center shadow-sm hover:cursor-pointer ml-3'
 					style={{ fontSize: "50px" }}
 					onClick={nextSlide}
 				/>
