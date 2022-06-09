@@ -10,9 +10,9 @@ import Background from "./components/background";
 function App() {
 	return (
 		<div>
-			<Background />
-			{/*<SideBar />
-			 <Header />
+			{/* <Background />
+			<SideBar />
+			<Header />
 			<Body />
 			<Cards />
 			<FileUpload />
