@@ -10,7 +10,7 @@ const Category = () => {
 			<Navbar />
 			<div className='flex flex-col p-5'>
 				<h1 className='text-[30px]'>Mens cloth</h1>
-				<div className='flex justify-centers items-center mt-3'>
+				<div className='flex justify-between items-center mt-3'>
 					<div className='flex'>
 						<p>Filter by</p>
 						<select className='ml-3 border-2 border-silver'>
@@ -21,13 +21,22 @@ const Category = () => {
 							<option>Medium</option>
 							<option>Large</option>
 						</select>
-						<select>
+						<select className='ml-3 border-2 border-silver'>
 							<option selected disabled>
 								Color
 							</option>
 							<option>Red</option>
 							<option>Yellow</option>
 							<option>blue</option>
+						</select>
+					</div>
+					<div className='flex'>
+						<p>Sort by </p>
+						<select className='ml-3 border-2 boder-selver'>
+							<option>Newset (first)</option>
+							<option>Oldest (first)</option>
+							<option>Price (Asc)</option>
+							<option>Price (Des)</option>
 						</select>
 					</div>
 				</div>
