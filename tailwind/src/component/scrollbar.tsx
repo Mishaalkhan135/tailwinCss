@@ -12,14 +12,14 @@ const scrollbar = () => {
 		slider.scrollLeft = slider.scrollLeft + 500;
 	};
 	return (
-		<div>
-			<h1 className='bg-white text-red-500 text-center underline text-6xl font-sans p-4 italic'>
+		<div className='bg-white shadow-2xl px-10 w-[100%]'>
+			<h1 className='text-red-500 text-center underline text-6xl font-serif p-4 italic'>
 				Scrolling Images
 			</h1>
-			<div className='relative flex items-center bg-white px-8 py-8'>
+			<div className='relative flex justify-center items-center py-8'>
 				<MdChevronLeft
 					size={40}
-					className='bg-black fill-white rounded-full opacity-50 cursor-pointer hover:opacity-100 '
+					className='bg-black fill-white rounded-full opacity-50 cursor-pointer hover:opacity-100 mr-1'
 					onClick={sliderLeft}
 				/>
 				<div
@@ -36,7 +36,7 @@ const scrollbar = () => {
 				</div>
 				<MdChevronRight
 					size={40}
-					className='bg-black fill-white  rounded-full opacity-50 cursor-pointer hover:opacity-100 '
+					className='bg-black fill-white  rounded-full opacity-50 cursor-pointer ml-3 hover:opacity-100 '
 					onClick={sliderRight}
 				/>
 			</div>

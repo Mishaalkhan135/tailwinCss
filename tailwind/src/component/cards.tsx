@@ -21,7 +21,7 @@ const cards = () => {
 						<p className='border-b mx-8 py-1'>500 GB storage</p>
 						<p className='border-b mx-8 py-1'>Granted User</p>
 						<p className='border-b mx-8 py-1'>Send upto 2 GB</p>
-						<button className='bg-green-600 text-white rounded w-32 h-12 mx-auto mt-8 mb-5'>
+						<button className='bg-green-600 text-white rounded w-32 h-12 mx-auto mt-8 mb-5  border-2 border-gray-300'>
 							Start Trail
 						</button>
 					</div>
@@ -40,7 +40,7 @@ const cards = () => {
 						<p className='border-b mx-8 py-1'>500 GB storage</p>
 						<p className='border-b mx-8 py-1'>Granted User</p>
 						<p className='border-b mx-8 py-1'>Send upto 2 GB</p>
-						<button className='bg-green-600 text-white rounded w-32 h-12 mx-auto mt-8 mb-5'>
+						<button className='bg-green-600 text-white rounded w-32 h-12 mx-auto mt-8 mb-5  border-2 border-gray-300'>
 							Start Trail
 						</button>
 					</div>
@@ -59,7 +59,7 @@ const cards = () => {
 						<p className='border-b mx-8 py-1'>500 GB storage</p>
 						<p className='border-b mx-8 py-1'>Granted User</p>
 						<p className='border-b mx-8 py-1'>Send upto 2 GB</p>
-						<button className='bg-green-600 text-white rounded w-32 h-12 mx-auto mt-8 mb-5 transition duration-150 ease-in-ou'>
+						<button className='bg-green-600 text-white rounded w-32 h-12 mx-auto mt-8 mb-5 transition duration-150 ease-in-out  border-2 border-gray-300'>
 							Start Trail
 						</button>
 					</div>
