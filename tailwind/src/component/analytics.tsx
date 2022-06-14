@@ -7,7 +7,7 @@ const analytics = () => {
 				<img
 					className='w-[300px] mx-auto my-4'
 					src={Apple}
-					alt='image for div'
+					alt='for div'
 				/>
 				<div className='text-center  flex flex-col justify-center font-serif italic'>
 					<p className='text-[#00df9a] text-2xl'>

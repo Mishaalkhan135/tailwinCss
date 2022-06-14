@@ -18,19 +18,31 @@ const footer = () => {
 					Lorem ipsum dolor sit amet consectetur adipisicing elit.
 				</p>
 				<div className='flex justify-between sm:-w-[75%] my-7 '>
-					<a href='https://www.facebook.com/' target='_blank'>
+					<a
+						href='https://www.facebook.com/'
+						target='_blank'
+						rel='noreferrer'
+					>
 						<FaFacebookSquare
 							size={30}
 							className='hover:bg-red-500 hover:fill-black  ease-in-out hover:rounded-md duration-100'
 						/>
 					</a>
-					<a href='https://www.instagram.com/' target='_blank'>
+					<a
+						href='https://www.instagram.com/'
+						target='_blank'
+						rel='noreferrer'
+					>
 						<FaInstagram
 							size={30}
 							className='hover:bg-red-500 hover:fill-black  ease-in-out hover:rounded-md duration-100'
 						/>
 					</a>
-					<a href='https://twitter.com/' target='_blank'>
+					<a
+						href='https://twitter.com/'
+						target='_blank'
+						rel='noreferrer'
+					>
 						<FaTwitterSquare
 							size={30}
 							className='hover:bg-red-500 hover:fill-black  ease-in-out hover:rounded-md duration-100'
@@ -39,13 +51,18 @@ const footer = () => {
 					<a
 						href='https://search.yahoo.com/search;_ylt=Awr9Ds3rV6diK6QAqFVXNyoA;_ylc=X1MDMjc2NjY3OQRfcgMyBGZyA21jYWZlZQRmcjIDc2ItdG9wBGdwcmlkAzV6bGdSd3VVUlV5VlREOURBdFVpdEEEbl9yc2x0AzAEbl9zdWdnAzEwBG9yaWdpbgNzZWFyY2gueWFob28uY29tBHBvcwMxBHBxc3RyAwRwcXN0cmwDMARxc3RybAM2BHF1ZXJ5A0dpdEh1YgR0X3N0bXADMTY1NTEzNDIxNA--?p=GitHub&fr2=sb-top&fr=mcafee&type=E210US91213G0&d=%7B%22dn%22%3A%22yk%22%2C%22subdn%22%3A%22digitalservice%22%2C%22ykid%22%3A%22fb75594e-e832-3e45-bc55-21c995fa0800%22%7D&fd=%7B%22imageUrl%22%3A%22https%3A%2F%2Fs.yimg.com%2Fzb%2Fimgv1%2F9414c653-06be-3f9b-8af2-09b97b7c6c2d%2Ft_140x140%22%7D'
 						target='_blank'
+						rel='noreferrer'
 					>
 						<FaGithubSquare
 							size={30}
 							className='hover:bg-red-500 hover:fill-black  ease-in-out hover:rounded-md duration-100'
 						/>
 					</a>
-					<a href='https://dribbble.com/' target='_blank'>
+					<a
+						href='https://dribbble.com/'
+						target='_blank'
+						rel='noreferrer'
+					>
 						<FaDribbbleSquare
 							size={30}
 							className='hover:bg-red-500 hover:fill-black  ease-in-out hover:rounded-md duration-100'

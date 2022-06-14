@@ -8,6 +8,8 @@ const Navbar = () => {
 		setNavs(!navs);
 	};
 
+	// th
+
 	return (
 		<div className='flex justify-between items-center h-28 max-x-[1440px] mx-auto px-8 text-white'>
 			<h1 className='w-full text-3xl font-bold text-[#00df9a]'>React.</h1>
