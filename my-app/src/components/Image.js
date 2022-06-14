@@ -13,14 +13,10 @@ function srcset(image, size, rows = 1, cols = 1) {
 
 export default function QuiltedImageList() {
 	return (
-		<ImageList
-			className='mt-10 cursor-pointer'
-			variant='quilted'
-			cols={4}
-			rowHeight={350}
-		>
+		<ImageList className='w-full h-full mt-10 cursor-pointer'>
 			{itemData.map((item) => (
 				<ImageListItem
+					className='w-full object-cover flex justify-center items-center '
 					key={item.img}
 					cols={item.cols || 1}
 					rows={item.rows || 1}

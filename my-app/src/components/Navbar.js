@@ -13,7 +13,7 @@ const Navbar = () => {
 			<img
 				src='https://tse4.mm.bing.net/th?id=OIP.GzWSmbwQfMRgVewE1b_lVgHaCS&pid=Api&P=0&w=533&h=164'
 				alt='logo for rolex'
-				className='w-[18%] h-full '
+				className='md:w-[18%] w-36 h-16'
 			/>
 			<ul className='md:flex hidden cursor-pointer font-serif'>
 				<li className='p-4 hover:text-red-800 font-bold hover:underline'>

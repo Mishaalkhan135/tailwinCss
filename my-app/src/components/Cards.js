@@ -33,7 +33,7 @@ export default function RecipeReviewCard() {
 	};
 
 	return (
-		<div className='grid md:grid-cols-3 grid-flow-row gap-3 p-6  w-[100%] h-[100%]'>
+		<div className='grid md:grid-cols-3 grid-flow-row gap-3 p-2 w-[100%] h-[100%]'>
 			<Card className='bg-white w-[100%] shadow-2xl mt-10 border-2 border-gray-300 '>
 				<CardHeader
 					avatar={
